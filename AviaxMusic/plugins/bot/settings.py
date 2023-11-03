@@ -50,17 +50,6 @@ async def settings_mar(client, message: Message, _):
     )
 
 
-@app.on_callback_query(filters.regex("gib_source") & ~banned_users)
-@languagecb
-async def gib_repo(client, callbackquery, _):
-    await callbackquery.edit_message_media(
-        inputmediavideo("https://telegra.ph/file/fcf17841032f16e39c445.mp4"),
-        reply_markup=inlinekeyboardmarkup(
-            [[inlinekeyboardbutton(text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper")]]
-        ),
-    ) 
-
-
 @app.on_callback_query(filters.regex("settings_helper") & ~BANNED_USERS)
 @languageCB
 async def settings_cb(client, CallbackQuery, _):
