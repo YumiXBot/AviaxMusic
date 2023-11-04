@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "14281524"))
-API_HASH = getenv("API_HASH", "1a2e3f00651f595c53c36140abc5d0c9")
+API_ID = int(getenv("API_ID", "23531711"))
+API_HASH = getenv("API_HASH", "65780e80712347f6b824a0666f040d79")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAETtCz2Uw2x7AjsrK6Zdg44JyqbgK2ZYOw")
+BOT_TOKEN = getenv("BOT_TOKEN", "6392016724:AAGVd5l1161SSymqZQLTckUfMOpEGLh67Y8")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
@@ -21,8 +21,8 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1000))
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001603822916"))
 
-# Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6079943111))
+# Get this value from @MissRose_Bot on Telegram by /id
+OWNER_ID = int(getenv("OWNER_ID", "6079943111"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -36,7 +36,7 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", "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"
+    "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneXBots")
@@ -61,8 +61,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
-# Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQG_fLUAcB1eYfFhQj1Vhy5jNeEgHsjc7BfDiFjnurUspkSVI25Osl9SSP4AXRHqwJsgK3YzyAymsTwyaMcEu01cKSfrM7r0W62tK85GGDAgLlKpoQcIxOgtIe_CWjiEQjAGvl3d-k2oBLETr1AIshJF_Zdwz7ZkHXGBPzOfWbLK453MG_WWPMGivHh0bA3phnTCdpHpdGvQN8HMXPVH19TTVEYUeGqmOQ0mSyoO5sZVgzIxFrFhVZ2cuSgzvT9HS8JOlUVVRTfIKjUiWLQnTh9LVZWKX8ReYVjaN8eMQwo47AJ3Os78atiVUGF4ydaIMf6FiKGHNf-1fV9Ednu_JXMH4vYYPQAAAAFxrqGiAA")
+# Get your pyrogram v2 session from Replit
+STRING1 = getenv("STRING_SESSION", "BQFnEL8AfC25fBk7mqqP3n9YEYZ7X6PHfs6PE9RE9wD477XwHTqrPSObSXDngdO5dYA2vFsquJo0Lg-dWuozwvQJtnayOs73HvfBB-bGdzO80np9r_xxMDBNDSwcjHR5iuljOYV4s4k5EaBX_VajHOD6ChmBICxgvl00Bw2qQPkVOgFBNasLDtmtQWejIwFl7sf1BzaT_hkjn_Hk5y1B-8qAduJ16FxtpYs1osTVUQbZpOI0ccboXBWLNXRRrEw6TYPSC5sEtO83G5fwzfl7A33lCNcixeMhB-SQoWqS11tnyJAs3Alz-j8bimEijiB7C-2y09YXosocpfJFP67tPRf0mcZL3wAAAAFTXiDAAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
